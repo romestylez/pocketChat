@@ -153,12 +153,12 @@ APK von der [Releases](../../releases)-Seite herunterladen und auf dem Android-G
 
 ## 📄 Lizenz
 
-MIT — mach damit was du willst, ein ⭐ freut uns aber immer.
+MIT — mach damit was du willst aber bleibt fair und gib Credits.
 
 ---
 
 <div align="center">
 
-Mit ♥ gemacht — von einem Streamer, für Streamer.
+Mit ♥ gemacht — von einem Nerd, für Streamer.
 
 </div>

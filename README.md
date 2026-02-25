@@ -145,7 +145,11 @@ APK von der [Releases](../../releases)-Seite herunterladen und auf dem Android-G
 ## 🛣️ Roadmap
 
 - [ ] YouTube Chat & Senden
+- [ ] Replay von Events (Tipeeestream/Streamelements etc.)
+- [ ] OBS Anbindung (Stream Start/Stop, Szenenwechsel etc.)
 - [ ] TTS-Konfiguration pro Event-Typ (z.B. Donationen ab 5 € vorlesen)
+- [ ] Mod-Aktionen im Chat Tab
+- [ ] Tabs aus/einblenden
 - [ ] Streamlabs als Event-Quelle
 - [ ] iOS-Version
 

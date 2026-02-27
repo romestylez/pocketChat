@@ -119,6 +119,32 @@ Integrierter WebView für browserbasierte Alert-Overlays.
 
 ---
 
+## 🎥 DJI Kamera Integration
+
+Verbinde deine DJI Kamera (Osmo, Pocket, Action) direkt per Bluetooth mit PocketChat — ohne Moblin oder iOS.
+
+- **BLE-Verbindung** — automatische Kamerasuche, Auto-Connect beim App-Start optional
+- **RTMP Stream Start / Stop** — Stream direkt von der Kamera starten und stoppen
+- **WiFi-Konfiguration** — SSID und Passwort direkt in der App eintragen
+- **Live-Akkustand** — wird in der App, in der Titelleiste und als OBS Browser Source angezeigt
+- **Browser Source URL** — Akkustand farbkodiert (grün/orange/rot) für OBS, aktualisiert sich automatisch alle 5 Sekunden
+- **Legacy-Modus** — `&legacy=1` gibt nur den reinen Prozentwert zurück, nutzbar in Streamer.bot oder Chat-Commands
+
+> ⚠️ Nicht kompatibel mit Moblin — DJI Kameras erlauben nur eine BLE-Verbindung gleichzeitig.
+
+---
+
+## 🌐 Browser Tab
+
+Eingebetteter Browser direkt in der App — frei konfigurierbar.
+
+- **Eigene URL** — beliebige Webseite als Tab einbinden (z.B. Stream-Stats, Dashboards, OBS-Overlays)
+- **Persistente Cookies** — Sitzungen und Logins bleiben auch nach App-Neustart erhalten
+- **Frei benennbar** — Tab-Name selbst wählen (z.B. „Stats", „Twitch", „Dashboard")
+- **JavaScript & DOM Storage** — volle Browser-Funktionalität, keine Einschränkungen
+
+---
+
 ## 🔧 Architektur
 
 PocketChat nutzt eine **eigene Backend-API** als sichere Schnittstelle zwischen App und den Streaming-Plattformen.
@@ -145,6 +171,7 @@ Twitch / Kick / YouTube
 - Twitch-Account für den Login
 - Optional: Kick, YouTube, TipeeeStream, StreamElements, Amazon Polly, ElevenLabs
 - Optional: OBS 28+ mit aktiviertem WebSocket-Server für OBS Remote
+- Optional: DJI Kamera (Osmo Pocket, Action Series) für BLE-Integration
 
 ---
 

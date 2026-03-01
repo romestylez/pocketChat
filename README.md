@@ -96,17 +96,19 @@ Live-Überblick über deinen Stream-Output — zwei Modi werden unterstützt:
 
 ---
 
-## 🎬 OBS Remote
+## 🎛️ PocketDeck
 
-Vollständige OBS-Fernsteuerung via **OBS WebSocket v5** (ab OBS 28 integriert) — kein Plugin nötig.
+Anpassbares Streamboard direkt in PocketChat — kein separates Streamdeck nötig.
 
-- **Verbindung** — IP/Host, Port und Passwort, persistent gespeichert
-- **Auto-Connect** — beim App-Start automatisch verbinden (optional)
-- **Stream starten / stoppen** — mit optionaler Bestätigungsabfrage
-- **Aufnahme starten / stoppen** — ebenfalls mit Bestätigung
-- **Szenen** — alle OBS-Szenen werden angezeigt, aktive Szene hervorgehoben, Wechsel per Tipp (mit Bestätigung)
-- **Live-Bitrate** — Senderate wird alle 10 Sekunden neben dem Verbindungsstatus angezeigt
-- **OBS Tab** — optionaler Tab in der Navigationsleiste für schnellen Zugriff auf die Controls
+- **Button-Grid** — frei konfigurierbare Kacheln, Anzahl pro Zeile einstellbar
+- **OBS-Integration** — Szenen wechseln, Quellen und Filter ein-/ausschalten (via OBS WebSocket v5)
+- **Twitch Chat-Steuerung** — Subs-only, Emote-only, Followers-only und Slow-Mode direkt per Knopf
+- **TTS-Warteschlange leeren** — mit einem Tipp alle ausstehenden TTS-Nachrichten abbrechen
+- **Bestätigungsabfrage** — kritische Aktionen können mit Sicherheitsabfrage gesichert werden
+- **Live-Status** — OBS-Verbindungsstatus und aktive Chat-Modi werden in Echtzeit angezeigt
+- **Zwei Zugangswege** — als eigener Tab in der Navigation oder als kompaktes Popup über den ⚡-Button im Chat
+
+> *OBS-Verbindung (IP, Port, Passwort) wird direkt in den PocketDeck-Einstellungen konfiguriert.*
 
 ---
 
@@ -186,7 +188,7 @@ APK von der [Releases](../../releases)-Seite herunterladen und auf dem Android-G
 1. **Twitch verbinden** antippen und autorisieren
 2. Optional: Kick oder YouTube unter **Accounts** verbinden
 3. Optional: TipeeeStream oder StreamElements unter **Events → Quellen** verbinden
-4. Optional: OBS unter **Hamburger-Menü → OBS Remote** konfigurieren
+4. Optional: pocketDeck unter **Hamburger-Menü → pocketDeck** konfigurieren
 5. Chat-Tab öffnen — du bist live 🎉
 
 ---

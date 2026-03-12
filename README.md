@@ -158,7 +158,7 @@ Twitch / Kick / YouTube
          │
     [PocketChat API]       ← Node.js + WebSocket + OAuth
          │
-    [PocketChat App]       ← Android, Jetpack Compose
+    [PocketChat App]       ← Android (Jetpack Compose) & iOS (Swift/KMP)
 ```
 
 **Warum eine eigene API?**
@@ -172,6 +172,7 @@ Twitch / Kick / YouTube
 ## 📋 Voraussetzungen
 
 - Android 8.0+
+- iOS 16.0+
 - Twitch-Account für den Login
 - Optional: Kick, YouTube, TipeeeStream, StreamElements, Amazon Polly, ElevenLabs
 - Optional: OBS 28+ mit aktiviertem WebSocket-Server für OBS Remote
@@ -183,7 +184,11 @@ Twitch / Kick / YouTube
 
 ### App installieren
 
+**Android**
 APK von der [Releases](../../releases)-Seite herunterladen und auf dem Android-Gerät installieren.
+
+**iOS**
+PocketChat ist für iOS aktuell über TestFlight verfügbar. Den Einladungslink findest du in unserem [Discord](https://discord.gg/h89JeFHm6n).
 
 ### Verbinden
 
@@ -199,7 +204,6 @@ APK von der [Releases](../../releases)-Seite herunterladen und auf dem Android-G
 
 - [ ] TTS-Konfiguration pro Event-Typ (z.B. Donationen ab 5 € vorlesen)
 - [ ] Mod-Aktionen: weitere Plattformen (YouTube)
-- [ ] iOS-Version
 
 ---
 

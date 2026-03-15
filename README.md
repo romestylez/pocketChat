@@ -172,7 +172,7 @@ Twitch / Kick / YouTube
 ## 📋 Voraussetzungen
 
 - Android 8.0+
-- iOS 16.0+
+- iOS 16.0+ - https://testflight.apple.com/join/3pCw3qb2
 - Twitch-Account für den Login
 - Optional: Kick, YouTube, TipeeeStream, StreamElements, Amazon Polly, ElevenLabs
 - Optional: OBS 28+ mit aktiviertem WebSocket-Server für OBS Remote

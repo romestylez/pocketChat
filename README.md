@@ -188,7 +188,7 @@ Twitch / Kick / YouTube
 APK von der [Releases](../../releases)-Seite herunterladen und auf dem Android-Gerät installieren.
 
 **iOS**
-PocketChat ist für iOS aktuell über TestFlight verfügbar. Den Einladungslink findest du in unserem [Discord](https://discord.gg/h89JeFHm6n).
+PocketChat ist für iOS aktuell über TestFlight verfügbar -> https://testflight.apple.com/join/3pCw3qb2 - Bug Reports bitte in meinen Discord [Discord](https://discord.gg/h89JeFHm6n).
 
 ### Verbinden
 

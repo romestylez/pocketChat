@@ -28,14 +28,6 @@ PocketChat betreibt eine eigene Backend-API. Kein Drittanbieter, keine Datenweit
 
 Alle Plattformen in einer einheitlichen Ansicht.
 
-| Plattform | Donationen | Subs | Follows | Cheers | Raids | Channel Points |
-|-----------|-----------|------|---------|--------|-------|----------------|
-| **Twitch EventSub** | — | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **TipeeeStream** | ✅ | ✅ | ✅ | ✅ | — | — |
-| **StreamElements** | ✅ | ✅ | ✅ | ✅ | ✅ | — |
-| **Streamlabs** | ✅ | ✅ | ✅ | ✅ | ✅ | — |
-| **Ko-fi** | ✅ | ✅ | — | — | — | — |
-
 - **Unified Chat Feed** — alle Plattformen in einer Liste, farblich nach Quelle unterschieden
 - **Nachrichten senden** — direkt vom Handy an Twitch, Kick, YouTube oder alle Plattformen gleichzeitig
 - **Plattform-Switcher** — Icon antippen für die gewünschte Plattform (Twitch → Kick → YouTube → ALL)

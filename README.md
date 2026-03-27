@@ -28,11 +28,13 @@ PocketChat betreibt eine eigene Backend-API. Kein Drittanbieter, keine Datenweit
 
 Alle Plattformen in einer einheitlichen Ansicht.
 
-| Plattform | Chat lesen | Chat senden | Nachricht löschen | Timeout | Ban |
-|-----------|-----------|-------------|-------------------|---------|-----|
-| **Twitch** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Kick** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **YouTube** | ✅ | ✅ | - | - | - |
+| Plattform | Donationen | Subs | Follows | Cheers | Raids | Channel Points |
+|-----------|-----------|------|---------|--------|-------|----------------|
+| **Twitch EventSub** | — | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **TipeeeStream** | ✅ | ✅ | ✅ | ✅ | — | — |
+| **StreamElements** | ✅ | ✅ | ✅ | ✅ | ✅ | — |
+| **Streamlabs** | ✅ | ✅ | ✅ | ✅ | ✅ | — |
+| **Ko-fi** | ✅ | ✅ | — | — | — | — |
 
 - **Unified Chat Feed** — alle Plattformen in einer Liste, farblich nach Quelle unterschieden
 - **Nachrichten senden** — direkt vom Handy an Twitch, Kick, YouTube oder alle Plattformen gleichzeitig

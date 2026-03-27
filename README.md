@@ -32,7 +32,7 @@ Alle Plattformen in einer einheitlichen Ansicht.
 |-----------|-----------|-------------|-------------------|---------|-----|
 | **Twitch** | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **Kick** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **YouTube** | ✅ | ✅ | — | — | — |
+| **YouTube** | ✅ | ✅ | - | - | - |
 
 - **Unified Chat Feed** — alle Plattformen in einer Liste, farblich nach Quelle unterschieden
 - **Nachrichten senden** — direkt vom Handy an Twitch, Kick, YouTube oder alle Plattformen gleichzeitig

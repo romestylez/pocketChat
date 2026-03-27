@@ -51,25 +51,31 @@ Echtzeit-Benachrichtigungen für alles, was in deinem Stream passiert.
 
 **Event-Plattformen verbinden:**
 
-| Plattform | Donationen | Subs | Follows | Cheers | Raids |
-|-----------|-----------|------|---------|--------|-------|
-| **TipeeeStream** | ✅ | ✅ | ✅ | ✅ | — |
-| **StreamElements** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Streamlabs** | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Plattform | Donationen | Subs | Follows | Cheers | Raids | Channel Points |
+|-----------|-----------|------|---------|--------|-------|----------------|
+| **Twitch EventSub** | — | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **TipeeeStream** | ✅ | ✅ | ✅ | ✅ | — | — |
+| **StreamElements** | ✅ | ✅ | ✅ | ✅ | ✅ | — |
+| **Streamlabs** | ✅ | ✅ | ✅ | ✅ | ✅ | — |
+| **Ko-fi** | ✅ | ✅ | — | — | — | — |
 
 **Was angezeigt wird:**
 - 💸 Donationen mit Betrag, Währung und Nachricht
 - ⭐ Subscriptions mit Monatszahl, Tier (1/2/3) und Gift-Info
-- 🎁 Gift-Bombs — „eddiich hat 5 Subs verschenkt"
+- 🎁 Gift-Bombs — „romestylez hat 5 Subs verschenkt"
 - ❤️ Follows
 - 💎 Cheers mit Bit-Anzahl
 - ⚔️ Raids mit Zuschauerzahl
+- 🎯 Channel Point Redemptions (Twitch)
+- 🔥 Combo-Events und Watch Streaks (Twitch)
 
 **Event-Filter** — selbst wählen, welche Event-Typen angezeigt werden sollen. Nur Donos und Raids? Kein Problem.
 
 **Event-Replay** — vergangene Events erneut abspielen (TipeeeStream, StreamElements, Streamlabs).
 
 **Teilbares Split-View** — Trennlinie zwischen Events und Chat verschieben für die perfekte Aufteilung.
+
+**„Über dem Chat anzeigen"** — Events lassen sich über dem Chat ein- oder ausblenden. Wenn deaktiviert, füllt der Chat die volle Bildschirmhöhe. Browser-Tabs mit aktiviertem „Über dem Chat" bleiben dabei weiterhin sichtbar.
 
 ---
 
@@ -81,11 +87,13 @@ Lass deinen Stream sprechen — direkt in der App, ohne zusätzliche Drittanbiet
 - **Amazon Polly** — natürliche Cloud-Stimmen (156 Stimmen, alle Engines)
 - **ElevenLabs** — hochwertige KI-Stimmen
 
-Viewer können per Bits, Donationen oder Kanalpunkten TTS-Nachrichten abspielen. TTS ab einem konfigurierbaren Mindestbetrag für Donationen ist in Planung.
+Viewer können per Bits, Donationen oder Kanalpunkten TTS-Nachrichten abspielen.
 
 **Chat vorlesen** — der komplette Chat-Feed kann automatisch vorgelesen werden. Plattform wählbar: alle, nur Twitch, nur Kick oder nur YouTube etc.
 
-**TTS-Delay** — konfigurierbarer Verzögerungspuffer, damit Ansagen von trägen Boxen nicht abgeschnitten werden.
+**Vorlaufstille** — konfigurierbarer Verzögerungspuffer (bis 500 ms), damit Ansagen von trägen Boxen nicht abgeschnitten werden.
+
+**Keep-Alive** — optionaler Stille-Ton im Hintergrund verhindert, dass Bluetooth-Boxen in den Standby wechseln und den Anfang der nächsten TTS-Ansage abschneiden. Intervall frei einstellbar.
 
 ---
 
@@ -93,8 +101,9 @@ Viewer können per Bits, Donationen oder Kanalpunkten TTS-Nachrichten abspielen.
 
 Live-Überblick über deinen Stream-Output — zwei Modi werden unterstützt:
 
-- **BelaBox (Hardware)** — Verbindung über den BelaBox Secret-Link, wie auf der offiziellen BelaBox-Seite. Zeigt Live-Bitrate aller Netzwerk-Interfaces (cam, usb0, usb1, wg0 etc.) sowie Streaming-Status mit Offline-Erkennung. Stream starten/stoppen und Interfaces deaktivieren direkt aus der App.
-- **JSON-Stats-URL** — für alle anderen Quellen die Stats als JSON ausliefern, z.B. Bela Cloud oder eigene SRT-Server. Nur Anzeige der Bitrate, keine Steuerung.
+- **BelaBox (Hardware, Cloud)** — Verbindung über den BelaBox Secret-Link oder die lokale BelaBox IP. Zeigt Live-Bitrate aller Netzwerk-Interfaces sowie Streaming-Status. Stream starten/stoppen und Interfaces deaktivieren direkt aus der App.
+- **BelaBox (Lokal)** — direkte Verbindung zur BelaBox im lokalen Netzwerk über IP und Passwort, ohne Cloud-Umweg.
+- **JSON-Stats-URL** — für alle anderen Quellen die Stats als JSON ausliefern, z.B. eigene SRT-Server. Nur Anzeige der Bitrate, keine Steuerung.
 
 ---
 
@@ -104,11 +113,13 @@ Anpassbares Streamboard direkt in PocketChat — kein separates Streamdeck nöti
 
 - **Button-Grid** — frei konfigurierbare Kacheln, Anzahl pro Zeile einstellbar
 - **OBS-Integration** — Szenen wechseln, Quellen und Filter ein-/ausschalten (via OBS WebSocket v5)
+- **OBS Audio-Toggle** — Mikrofon oder Desktop-Audio per Knopfdruck stumm/aktiv schalten, 🔊/🔇 zeigt den Live-Status direkt auf dem Button
+- **Multi Action Buttons** — mehrere OBS-Aktionen auf einen einzigen Button legen (z.B. Quelle einblenden + Audio aktivieren gleichzeitig)
 - **Twitch Chat-Steuerung** — Subs-only, Emote-only, Followers-only und Slow-Mode direkt per Knopf
 - **TTS-Warteschlange leeren** — mit einem Tipp alle ausstehenden TTS-Nachrichten abbrechen
 - **Bestätigungsabfrage** — kritische Aktionen können mit Sicherheitsabfrage gesichert werden
 - **Live-Status** — OBS-Verbindungsstatus und aktive Chat-Modi werden in Echtzeit angezeigt
-- **Zwei Zugangswege** — als eigener Tab in der Navigation oder als kompaktes Popup über den ⚡-Button im Chat
+- **Zwei Zugangswege** — als eigener Tab in der Navigation und/oder als kompaktes Popup über den ⚡-Button im Chat
 
 > *OBS-Verbindung (IP, Port, Passwort) wird direkt in den PocketDeck-Einstellungen konfiguriert.*
 

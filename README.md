@@ -45,13 +45,15 @@ Echtzeit-Benachrichtigungen für alles, was in deinem Stream passiert.
 
 **Event-Plattformen verbinden:**
 
-| Plattform | Donationen | Subs | Follows | Cheers | Raids | Channel Points |
-|-----------|-----------|------|---------|--------|-------|----------------|
-| **Twitch EventSub** | — | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **TipeeeStream** | ✅ | ✅ | ✅ | ✅ | — | — |
-| **StreamElements** | ✅ | ✅ | ✅ | ✅ | ✅ | — |
-| **Streamlabs** | ✅ | ✅ | ✅ | ✅ | ✅ | — |
-| **Ko-fi** | ✅ | ✅ | — | — | — | — |
+| Plattform | Donationen | Subs | Follows | Cheers | Raids | Channel Points | Super Chats | Super Stickers | PayPal |
+|-----------|-----------|------|---------|--------|-------|----------------|-------------|----------------|--------|
+| **Twitch EventSub** | — | ✅ | ✅ | ✅ | ✅ | ✅ | — | — | — |
+| **TipeeeStream** | ✅ | ✅ | ✅ | ✅ | — | — | — | — | — |
+| **StreamElements** | ✅ | ✅ | ✅ | ✅ | ✅ | — | — | — | — |
+| **Streamlabs** | ✅ | ✅ | ✅ | ✅ | ✅ | — | ✅ | ✅ | ✅ |
+| **Ko-fi** | ✅ | ✅ | — | — | — | — | — | — | ✅ |
+| **YouTube** | — | — | — | — | — | — | ✅ | ✅ | — |
+| **PayPal** | ✅ | — | — | — | — | — | — | — | ✅ |
 
 **Was angezeigt wird:**
 - 💸 Donationen mit Betrag, Währung und Nachricht
@@ -62,6 +64,9 @@ Echtzeit-Benachrichtigungen für alles, was in deinem Stream passiert.
 - ⚔️ Raids mit Zuschauerzahl
 - 🎯 Channel Point Redemptions (Twitch)
 - 🔥 Combo-Events und Watch Streaks (Twitch)
+- 🔴 YouTube Super Chats mit Betrag und Nachricht
+- 🌟 YouTube Super Stickers
+- 🅿️ Direkte PayPal-Spenden mit Betrag und Nachricht
 
 **Event-Filter** — selbst wählen, welche Event-Typen angezeigt werden sollen. Nur Donos und Raids? Kein Problem.
 

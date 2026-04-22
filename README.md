@@ -50,7 +50,7 @@ Echtzeit-Benachrichtigungen für alles, was in deinem Stream passiert.
 | **Twitch EventSub** | — | ✅ | ✅ | ✅ | ✅ | ✅ | — | — |
 | **TipeeeStream** | ✅ | ✅ | ✅ | ✅ | — | — | — | — |
 | **StreamElements** | ✅ | ✅ | ✅ | ✅ | ✅ | — | — | — |
-| **Streamlabs** | ✅ | ✅ | ✅ | ✅ | ✅ | — | ✅ | ✅ |
+| **Streamlabs** | ✅ | ✅ | ✅ | ✅ | ✅ | — | — | — |
 | **Ko-fi** | ✅ | ✅ | — | — | — | — | — | — |
 | **YouTube** | — | — | — | — | — | — | ✅ | ✅ |
 | **PayPal** | ✅ | — | — | — | — | — | — | — |

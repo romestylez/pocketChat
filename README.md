@@ -140,6 +140,7 @@ Verbinde deine DJI Kamera (Osmo, Pocket, Action) direkt per Bluetooth mit Pocket
 - **BLE-Verbindung** — automatische Kamerasuche, Auto-Connect beim App-Start optional
 - **RTMP Stream Start / Stop** — Stream direkt von der Kamera starten und stoppen
 - **WiFi-Konfiguration** — SSID und Passwort direkt in der App eintragen
+- **Kamera-Profile** — mehrere Kamera-Setups (WLAN, RTMP, Bitrate, Auflösung, FPS, Stabilisierung) speichern und per Tipp umschalten; optional ein Profil für Auto-Stream beim Verbinden
 - **Live-Akkustand** — wird in der App, in der Titelleiste und als OBS Browser Source angezeigt
 - **Browser Source URL** — Akkustand farbkodiert (grün/orange/rot) für OBS, aktualisiert sich automatisch alle 5 Sekunden
 - **Legacy-Modus** — `&legacy=1` gibt nur den reinen Prozentwert zurück, nutzbar in Streamer.bot oder Chat-Commands
@@ -182,7 +183,7 @@ Twitch / Kick / YouTube
 ## 📋 Voraussetzungen
 
 - Android 8.0+
-- iOS 16.0+ - https://testflight.apple.com/join/3pCw3qb2
+- iOS 16.0+
 - Twitch-Account für den Login
 - Optional: Kick, YouTube, TipeeeStream, StreamElements, Amazon Polly, ElevenLabs
 - Optional: OBS 28+ mit aktiviertem WebSocket-Server für OBS Remote
@@ -195,10 +196,12 @@ Twitch / Kick / YouTube
 ### App installieren
 
 **Android**
-APK von der [Releases](../../releases)-Seite herunterladen und auf dem Android-Gerät installieren.
+PocketChat im [Google Play Store](https://play.google.com/store/apps/details?id=dev.romestylez.pocketchat) laden.
 
 **iOS**
-PocketChat ist für iOS aktuell über TestFlight verfügbar -> https://testflight.apple.com/join/3pCw3qb2 - Bug Reports bitte in meinen Discord [Discord](https://discord.gg/h89JeFHm6n).
+PocketChat im [App Store](https://apps.apple.com/de/app/pocketchat/id6760356504) laden.
+
+Bug Reports bitte in meinen [Discord](https://discord.gg/h89JeFHm6n).
 
 ### Verbinden
 

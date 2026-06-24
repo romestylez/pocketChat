@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📱 PocketChat
+# 📱 pocketChat
 
 **Dein Stream. In deiner Tasche.**
 
@@ -16,11 +16,11 @@ Die mobile Companion-App für Live-Streamer — Chat aller Plattformen, Stream-E
 
 ---
 
-## ✨ Was ist PocketChat?
+## ✨ Was ist pocketChat?
 
-PocketChat ist für Streamer gebaut, die auch abseits des PCs mit ihrem Chat interagieren wollen. Ob beim IRL-Streamen, Kochen oder auf der Couch — Chat und Events immer im Blick.
+pocketChat ist für Streamer gebaut, die auch abseits des PCs mit ihrem Chat interagieren wollen. Ob beim IRL-Streamen, Kochen oder auf der Couch — Chat und Events immer im Blick.
 
-PocketChat betreibt eine eigene Backend-API. Kein Drittanbieter, keine Datenweitergabe. **Dein Stream, deine Daten.**
+pocketChat betreibt eine eigene Backend-API. Kein Drittanbieter, keine Datenweitergabe. **Dein Stream, deine Daten.**
 
 ---
 
@@ -108,7 +108,7 @@ Live-Überblick über deinen Stream-Output — zwei Modi werden unterstützt:
 
 ## 🎛️ PocketDeck
 
-Anpassbares Streamboard direkt in PocketChat — kein separates Streamdeck nötig.
+Anpassbares Streamboard direkt in pocketChat — kein separates Streamdeck nötig.
 
 - **Button-Grid** — frei konfigurierbare Kacheln, Anzahl pro Zeile einstellbar
 - **OBS-Integration** — Szenen wechseln, Quellen und Filter ein-/ausschalten (via OBS WebSocket v5)
@@ -135,7 +135,7 @@ Integrierter WebView für browserbasierte Alert-Overlays.
 
 ## 🎥 DJI Kamera Integration
 
-Verbinde deine DJI Kamera (Osmo, Pocket, Action) direkt per Bluetooth mit PocketChat — ohne Moblin oder iOS.
+Verbinde deine DJI Kamera (Osmo, Pocket, Action) direkt per Bluetooth mit pocketChat — ohne Moblin oder iOS.
 
 - **BLE-Verbindung** — automatische Kamerasuche, Auto-Connect beim App-Start optional
 - **RTMP Stream Start / Stop** — Stream direkt von der Kamera starten und stoppen
@@ -162,14 +162,14 @@ Eingebetteter Browser direkt in der App — frei konfigurierbar.
 
 ## 🔧 Architektur
 
-PocketChat nutzt eine **eigene Backend-API** als sichere Schnittstelle zwischen App und den Streaming-Plattformen.
+pocketChat nutzt eine **eigene Backend-API** als sichere Schnittstelle zwischen App und den Streaming-Plattformen.
 
 ```
 Twitch / Kick / YouTube
          │
-    [PocketChat API]       ← Node.js + WebSocket + OAuth
+    [pocketChat API]       ← Node.js + WebSocket + OAuth
          │
-    [PocketChat App]       ← Android (Jetpack Compose) & iOS (Swift/KMP)
+    [pocketChat App]       ← Android (Jetpack Compose) & iOS (Swift/KMP)
 ```
 
 **Warum eine eigene API?**
@@ -196,10 +196,10 @@ Twitch / Kick / YouTube
 ### App installieren
 
 **Android**
-PocketChat im [Google Play Store](https://play.google.com/store/apps/details?id=dev.romestylez.pocketchat) laden.
+pocketChat im [Google Play Store](https://play.google.com/store/apps/details?id=dev.romestylez.pocketchat) laden.
 
 **iOS**
-PocketChat im [App Store](https://apps.apple.com/de/app/pocketchat/id6760356504) laden.
+pocketChat im [App Store](https://apps.apple.com/de/app/pocketchat/id6760356504) laden.
 
 Bug Reports bitte in meinen [Discord](https://discord.gg/h89JeFHm6n).
 

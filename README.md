@@ -43,17 +43,19 @@ Alle Plattformen in einer einheitlichen Ansicht.
 
 Echtzeit-Benachrichtigungen für alles, was in deinem Stream passiert.
 
-**Event-Quellen und unterstützte Events:**
+**Event-Plattformen verbinden:**
 
-| Quelle | Events im Feed |
-|--------|----------------|
-| **Twitch EventSub** | Follows, Subs, Cheers, Raids, Channel Points, Combos, Watch Streaks, Hype Trains, empfangene Shoutouts, Creator Goals |
-| **Kick** | Follows, Subs, KICKs, Channel Points |
-| **YouTube** | Super Chats, Super Stickers, Juwelen-Geschenke, Mitgliedschaften und verschenkte Mitgliedschaften |
-| **TipeeeStream** | Donationen, Subs, Follows, Cheers |
-| **StreamElements** | Donationen, Subs, Follows, Cheers, Raids |
-| **Ko-fi** | Donationen |
-| **PayPal** | Donationen |
+| Plattform | Donationen | Subs | Follows | Cheers | KICKs | Raids | Channel Points | Super Chats | Super Stickers | Juwelen | Mitgliedschaften |
+|-----------|------------|------|---------|--------|-------|-------|----------------|-------------|----------------|---------|------------------|
+| **Twitch** | — | ✅ | ✅ | ✅ | — | ✅ | ✅ | — | — | — | — |
+| **Kick** | — | ✅ | ✅ | — | ✅ | — | ✅ | — | — | — | — |
+| **YouTube** | — | — | — | — | — | — | — | ✅ | ✅ | ✅ | ✅ |
+| **TipeeeStream** | ✅ | ✅ | ✅ | ✅ | — | — | — | — | — | — | — |
+| **StreamElements** | ✅ | ✅ | ✅ | ✅ | — | ✅ | — | — | — | — | — |
+| **Ko-fi** | ✅ | — | — | — | — | — | — | — | — | — | — |
+| **PayPal** | ✅ | — | — | — | — | — | — | — | — | — | — |
+
+Bei YouTube umfasst **Mitgliedschaften** auch verschenkte Mitgliedschaften. Weitere Twitch-Events wie Combos, Watch Streaks, Hype Trains, empfangene Shoutouts und Creator Goals stehen im Feed.
 
 Twitch, Kick und YouTube werden unter **Accounts** verbunden; die übrigen Event-Quellen unter **Events → Quellen**. Streamlabs kann als Alert-Box eingebunden werden, steht aber nicht als eigene Quelle im aktuellen Event-Filter.
 

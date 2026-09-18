@@ -43,17 +43,19 @@ Alle Plattformen in einer einheitlichen Ansicht.
 
 Echtzeit-Benachrichtigungen für alles, was in deinem Stream passiert.
 
-**Event-Plattformen verbinden:**
+**Event-Quellen und unterstützte Events:**
 
-| Plattform | Donationen | Subs | Follows | Cheers | Raids | Channel Points | Super Chats | Super Stickers |
-|-----------|-----------|------|---------|--------|-------|----------------|-------------|----------------|
-| **Twitch EventSub** | — | ✅ | ✅ | ✅ | ✅ | ✅ | — | — |
-| **TipeeeStream** | ✅ | ✅ | ✅ | ✅ | — | — | — | — |
-| **StreamElements** | ✅ | ✅ | ✅ | ✅ | ✅ | — | — | — |
-| **Streamlabs** | ✅ | ✅ | ✅ | ✅ | ✅ | — | — | — |
-| **Ko-fi** | ✅ | ✅ | — | — | — | — | — | — |
-| **YouTube** | — | — | — | — | — | — | ✅ | ✅ |
-| **PayPal** | ✅ | — | — | — | — | — | — | — |
+| Quelle | Events im Feed |
+|--------|----------------|
+| **Twitch EventSub** | Follows, Subs, Cheers, Raids, Channel Points, Combos, Watch Streaks, Hype Trains, empfangene Shoutouts, Creator Goals |
+| **Kick** | Follows, Subs, KICKs, Channel Points |
+| **YouTube** | Super Chats, Super Stickers, Juwelen-Geschenke, Mitgliedschaften und verschenkte Mitgliedschaften |
+| **TipeeeStream** | Donationen, Subs, Follows, Cheers |
+| **StreamElements** | Donationen, Subs, Follows, Cheers, Raids |
+| **Ko-fi** | Donationen |
+| **PayPal** | Donationen |
+
+Twitch, Kick und YouTube werden unter **Accounts** verbunden; die übrigen Event-Quellen unter **Events → Quellen**. Streamlabs kann als Alert-Box eingebunden werden, steht aber nicht als eigene Quelle im aktuellen Event-Filter.
 
 **Was angezeigt wird:**
 - 💸 Donationen mit Betrag, Währung und Nachricht
@@ -67,7 +69,7 @@ Echtzeit-Benachrichtigungen für alles, was in deinem Stream passiert.
 - 🔥 Combo-Events und Watch Streaks (Twitch)
 - 🚂 Hype Trains (Twitch) und KICKs (Kick)
 - 🔴 YouTube Super Chats mit Betrag und Nachricht
-- 🌟 YouTube Super Stickers
+- 🌟 YouTube Super Stickers, Juwelen-Geschenke und Mitgliedschaften (auch verschenkte)
 - 🅿️ Direkte PayPal-Spenden mit Betrag und Nachricht
 
 **Event-Filter** — selbst wählen, welche Event-Typen angezeigt werden sollen und welche Quelle sie liefert. Nur Donos und Raids? Kein Problem.
